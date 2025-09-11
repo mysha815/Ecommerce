@@ -8,17 +8,17 @@ class HomeScreen extends StatelessWidget {
 
   final List<Map<String,dynamic>> Populardeals=[
     {
-      'image':'assets/Chips.png',
+      'image':'assets/Images/Chips.png',
       'name' :'Fried Chips',
       'price' :'৳12'
     },
     {
-      'image':'assets/Washing_machine.png',
+      'image':'assets/Images/Washing_machine.png',
       'name':'LG washing machine',
       'price':'৳45,999'
     },
     {
-      'image':'assets/Sofa.png',
+      'image':'assets/Images/Sofa.png',
       'name':'Moder Chair',
       'price':'৳3599'
     },
@@ -27,16 +27,16 @@ class HomeScreen extends StatelessWidget {
 
   List<Map<String,String>> sliders =[
     {
-      'image': 'assets/Group 9.png',
+      'image': 'assets/Images/Group 9.png',
     },
     {
-      'image':'assets/food banne1.jpeg',
+      'image':'assets/Images/food banne1.jpeg',
     },
     {
-      'image':'assets/foodbanner2.jpeg'
+      'image':'assets/Images/foodbanner2.jpeg'
     },
     {
-      'image':'assets/foodbanner3.jpeg'
+      'image':'assets/Images/foodbanner3.jpeg'
     }
   ];
   HomeScreen({super.key});
@@ -54,7 +54,7 @@ class HomeScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Image.asset('assets/HyperMart.png'),
+                  Image.asset('assets/Images/HyperMart.png'),
                   Icon(Icons.notifications,color: Colors.red,),
                 ],
               ),

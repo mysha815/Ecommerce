@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Account.dart';
+import 'Categories.dart';
 import 'Home.dart';
 import 'HomeScreen.dart';
 
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
 
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: BottomNavExample(),
+      home: BottomNavExample (),
     );
   }
 }

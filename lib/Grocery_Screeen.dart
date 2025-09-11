@@ -6,17 +6,17 @@ class GroceryScreeen extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<Map<String,dynamic>> Populardeals=[
       {
-        'image':'assets/Chips.png',
+        'image':'assets/Images/Chips.png',
         'name' :'Fried Chips',
         'price' :'12'
       },
       {
-        'image':'assets/Washing_machine.png',
+        'image':'assets/Images/Washing_machine.png',
         'name':'LG washing machine',
         'price':'45,999'
       },
       {
-        'image':'assets/Sofa.png',
+        'image':'assets/Images/Sofa.png',
         'name':'Moder Chair',
         'price':'3599'
       },
