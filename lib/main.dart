@@ -1,3 +1,4 @@
+import 'package:ecommerce_app/product_details.dart';
 import 'package:flutter/material.dart';
 
 import 'Account.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
 
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: BottomNavExample (),
+      home: ProductDetails(),
     );
   }
 }
