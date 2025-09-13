@@ -1,38 +1,7 @@
 import 'package:flutter/material.dart';
+import 'Images_list.dart';
 class CartPage extends StatelessWidget {
-  final List<Map<String,String>> Cartitems = [
-    {
-      'name' : 'iphone 14 Pro',
-      'price' : 'SAR 3299.',
-     'weight' : '206g',
-      'image' : 'assets/Mobile/galaxy.JPG',
-      'num' : '1'
-    },
-    {
-      'name' : 'MacBook Air M2',
-      'price' : 'SAR 4599.',
-      'weight' : '1.24g',
-      'image' : 'assets/Mobile/galaxy.JPG',
-      'num' : '1'
-    },
-    {
-      'name' : 'AirPods Pro',
-      'price' : 'SAR 899.',
-      'weight' : '56g',
-      'image' : 'assets/Mobile/galaxy.JPG',
-      'num' : '2'
-    },
-    {
-      'name' : 'Samsung Galaxy',
-      'price' : 'SAR 2899.',
-      'weight' : '168g',
-      'image' : 'assets/Mobile/galaxy.JPG',
-      'num' : '1'
-    },
 
-
-
-  ];
    CartPage({super.key});
 
   @override
@@ -57,7 +26,7 @@ class CartPage extends StatelessWidget {
 
       body: Container(
           decoration: BoxDecoration(
-              color: Colors.white,
+              color: Colors.white70,
           ),
         child: ListView.builder(
           itemCount: Cartitems.length,

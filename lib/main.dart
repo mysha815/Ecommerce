@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 
 import 'Account.dart';
 import 'Categories.dart';
+import 'Check_Out.dart';
 import 'Home.dart';
 import 'HomeScreen.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
 
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: ProductDetails(),
+      home: BottomNavExample(),
     );
   }
 }

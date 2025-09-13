@@ -1,27 +1,10 @@
 import 'package:flutter/material.dart';
+import 'Images_list.dart';
 class GroceryScreeen extends StatelessWidget {
   const GroceryScreeen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final List<Map<String,dynamic>> Populardeals=[
-      {
-        'image':'assets/Images/Chips.png',
-        'name' :'Fried Chips',
-        'price' :'12'
-      },
-      {
-        'image':'assets/Images/Washing_machine.png',
-        'name':'LG washing machine',
-        'price':'45,999'
-      },
-      {
-        'image':'assets/Images/Sofa.png',
-        'name':'Moder Chair',
-        'price':'3599'
-      },
-
-    ];
     return Scaffold(
       body:   GridView.builder(
           itemCount: Populardeals.length,
