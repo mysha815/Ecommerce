@@ -1,6 +1,7 @@
 import 'package:ecommerce_app/Cart_Page.dart';
 import 'package:ecommerce_app/Categories.dart';
 import 'package:flutter/material.dart';
+import 'Check_Out.dart';
 import 'Home.dart';
 
 import 'Account.dart';
@@ -15,7 +16,7 @@ class _BottomNavExampleState extends State<BottomNavExample> {
 
   final List<Widget> _pages = [
     HomeScreen(),
-    CartPage(),
+    CheckOut(),
     Account(),
  Categories()
 

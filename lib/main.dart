@@ -6,6 +6,7 @@ import 'Categories.dart';
 import 'Check_Out.dart';
 import 'Home.dart';
 import 'HomeScreen.dart';
+import 'Successfull_Screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
 
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: BottomNavExample(),
+      home: SuccessfullScreen(),
     );
   }
 }

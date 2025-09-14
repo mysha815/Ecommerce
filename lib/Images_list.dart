@@ -1,137 +1,110 @@
 import 'package:flutter/material.dart';
 
-final List<Map<String,dynamic>> products =[
-
+final List<Map<String, dynamic>> products = [
   {
-    'image':'assets/Images/amla.png',
-    'title':'Doubur Amla Extra oil',
-    'price':'৳96.95'
+    'image': 'assets/Images/amla.png',
+    'title': 'Doubur Amla Extra oil',
+    'price': '৳96.95'
   },
   {
-    'image':'assets/Images/Amla (2).png',
-    'title':' Amla Extra oil',
-    'price':'৳96.95'
+    'image': 'assets/Images/Amla (2).png',
+    'title': ' Amla Extra oil',
+    'price': '৳96.95'
   },
   {
-    'image':'assets/Images/coconut.png',
-    'title':'Coconut Parachute oil',
-    'price':'৳96.95'
+    'image': 'assets/Images/coconut.png',
+    'title': 'Coconut Parachute oil',
+    'price': '৳96.95'
   },
   {
-    'image':'assets/Images/jesmin.png',
-    'title':'Jesmine Extra oil',
-    'price':'৳96.95'
+    'image': 'assets/Images/jesmin.png',
+    'title': 'Jesmine Extra oil',
+    'price': '৳96.95'
   },
   {
-    'image':'assets/Images/katrinajesmin.png',
-    'title':'Jesmine extracts Extra oil',
-    'price':'৳96.95'
+    'image': 'assets/Images/katrinajesmin.png',
+    'title': 'Jesmine extracts Extra oil',
+    'price': '৳96.95'
   },
   {
-    'image':'assets/Images/amla.png',
-    'title':'Doubur Amla Extra oil',
-    'price':'৳96.95'
+    'image': 'assets/Images/amla.png',
+    'title': 'Doubur Amla Extra oil',
+    'price': '৳96.95'
   },
 ];
 
-final List<Map<String,dynamic>> Populardeals=[
+final List<Map<String, dynamic>> Populardeals = [
+  {'image': 'assets/Images/Chips.png', 'name': 'Fried Chips', 'price': '৳12'},
   {
-    'image':'assets/Images/Chips.png',
-    'name' :'Fried Chips',
-    'price' :'৳12'
+    'image': 'assets/Images/Washing_machine.png',
+    'name': 'LG washing machine',
+    'price': '৳45,999'
   },
-  {
-    'image':'assets/Images/Washing_machine.png',
-    'name':'LG washing machine',
-    'price':'৳45,999'
-  },
-  {
-    'image':'assets/Images/Sofa.png',
-    'name':'Moder Chair',
-    'price':'৳3599'
-  },
-
+  {'image': 'assets/Images/Sofa.png', 'name': 'Moder Chair', 'price': '৳3599'},
 ];
 
-List<Map<String,String>> sliders =[
+List<Map<String, String>> sliders = [
   {
     'image': 'assets/Images/Group 9.png',
   },
   {
-    'image':'assets/Images/food banne1.jpeg',
+    'image': 'assets/Images/food banne1.jpeg',
   },
-  {
-    'image':'assets/Images/foodbanner2.jpeg'
-  },
-  {
-    'image':'assets/Images/foodbanner3.jpeg'
-  }
+  {'image': 'assets/Images/foodbanner2.jpeg'},
+  {'image': 'assets/Images/foodbanner3.jpeg'}
 ];
 
-final List<Map<String,String>> Cartitems = [
+final List<Map<String, String>> Cartitems = [
   {
-    'name' : 'iphone 14 Pro',
-    'price' : 'SAR 3299.',
-    'weight' : '206g',
-    'image' : 'assets/Mobile/galaxy.JPG',
-    'num' : '1'
+    'name': 'iphone 14 Pro',
+    'price': 'SAR 3299 x 1',
+    'num': 'SAR 3299.00',
+    'image': 'assets/Mobile/galaxy.JPG',
   },
   {
-    'name' : 'MacBook Air M2',
-    'price' : 'SAR 4599.',
-    'weight' : '1.24g',
-    'image' : 'assets/Mobile/galaxy.JPG',
-    'num' : '1'
+    'name': 'MacBook Air M2',
+    'price': 'SAR 4599 x 1',
+    'num': 'SAR 4599.00',
+    'image': 'assets/Mobile/galaxy.JPG',
   },
   {
-    'name' : 'AirPods Pro',
-    'price' : 'SAR 899.',
-    'weight' : '56g',
-    'image' : 'assets/Mobile/galaxy.JPG',
-    'num' : '2'
+    'name': 'AirPods Pro',
+    'price': 'SAR 899 x 1',
+    'image': 'assets/Mobile/galaxy.JPG',
+    'num': 'SAR 1798.00'
   },
-  {
-    'name' : 'Samsung Galaxy',
-    'price' : 'SAR 2899.',
-    'weight' : '168g',
-    'image' : 'assets/Mobile/galaxy.JPG',
-    'num' : '1'
-  },
-
-
-
 ];
 
 final List<Map<String, dynamic>> categories = [
   {
     'image': 'assets/Fruits items/Graps.png',
     'title': 'Graps',
-    'color': Colors.orangeAccent,
+    'color': Colors.purple,
+  },
+  {
+    'image': 'assets/Fruits items/nerkel.png',
+    'title': 'Coconut',
+    'color': Colors.brown,
+  },
+  {
+    'image': 'assets/Fruits items/Nuts.png',
+    'title': 'Nuts',
+    'color': Colors.brown.shade500,
   },
   {
     'image': 'assets/Fruits items/Graps.png',
     'title': 'Graps',
-    'color': Colors.orangeAccent,
+    'color': Colors.purple,
   },
   {
     'image': 'assets/Fruits items/Graps.png',
     'title': 'Graps',
-    'color': Colors.orangeAccent,
+    'color': Colors.purple,
   },
   {
     'image': 'assets/Fruits items/Graps.png',
     'title': 'Graps',
-    'color': Colors.orangeAccent,
-  },
-  {
-    'image': 'assets/Fruits items/Graps.png',
-    'title': 'Graps',
-    'color': Colors.orangeAccent,
-  },
-  {
-    'image': 'assets/Fruits items/Graps.png',
-    'title': 'Graps',
-    'color': Colors.orangeAccent,
+    'color': Colors.purple,
   },
   {
     'image': 'assets/Juice_Mineral/7up.JPG',
