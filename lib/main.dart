@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: SuccessfullScreen(),
+      home: BottomNavExample(),
     );
   }
 }

@@ -5,6 +5,7 @@ final List<Map<String, dynamic>> products = [
     'image': 'assets/Images/amla.png',
     'title': 'Doubur Amla Extra oil',
     'price': '৳96.95'
+
   },
   {
     'image': 'assets/Images/Amla (2).png',
@@ -125,5 +126,6 @@ final List<Map<String, dynamic>> categories = [
     'image': 'assets/Juice_Mineral/berry_juice.JPG',
     'title': 'Berry juice',
     'color': Colors.brown,
-  }
+  },
+
 ];

@@ -1,4 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:ecommerce_app/product_details.dart';
 import 'package:flutter/material.dart';
 import 'Categories.dart';
 import 'Images_list.dart';
@@ -167,10 +168,21 @@ class HomeScreen extends StatelessWidget {
                   childAspectRatio: 1,
                 ),
                 itemBuilder: (context, index) {
-                  return ProductsCard(
-                      image: products[index]['image']!,
-                      title: products[index]['title']!,
-                      price: products[index]['price']!);
+                  final product = products[index];
+                  return GestureDetector(
+                    onTap: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>ProductDetails(
+                        image: product['image'],
+                        title: product['title'],
+                        price: product['price']
+                      )
+                      ));
+                    },
+                    child: ProductsCard(
+                        image: products[index]['image']!,
+                        title: products[index]['title']!,
+                        price: products[index]['price']!),
+                  );
                 }),
           ],
         ),
