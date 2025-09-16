@@ -30,7 +30,7 @@ class Categories extends StatelessWidget {
                   crossAxisCount: 4,
                   crossAxisSpacing: 10,
                   mainAxisSpacing: 10,
-                  childAspectRatio: 1,
+                  childAspectRatio: 0.90,
                 ),
                 itemBuilder: (context, index) {
                   return CategoryCard(

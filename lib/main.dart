@@ -1,28 +1,27 @@
-import 'package:ecommerce_app/product_details.dart';
 import 'package:flutter/material.dart';
-
-import 'Account.dart';
-import 'Categories.dart';
-import 'Check_Out.dart';
-import 'Home.dart';
+import 'package:provider/provider.dart';
+import 'Cart_Provider.dart';
 import 'HomeScreen.dart';
-import 'Successfull_Screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => CartProvider()),
+      ],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
-      title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: BottomNavExample(),
+      home: BottomNavExample(), // এখান থেকে CartPage/ProductDetails এ navigation হবে
     );
   }
 }

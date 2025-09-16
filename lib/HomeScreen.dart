@@ -16,7 +16,7 @@ class _BottomNavExampleState extends State<BottomNavExample> {
 
   final List<Widget> _pages = [
     HomeScreen(),
-    CheckOut(),
+    CartPage(),
     Account(),
  Categories()
 

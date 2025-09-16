@@ -8,11 +8,14 @@ Widget CategoryCard(
       Stack(
         clipBehavior: Clip.none,
         children: [
-          Container(
-            height: 80,
-            width: 80,
-            decoration: BoxDecoration(
-                color: color, borderRadius: BorderRadius.circular(12)),
+          Card(
+            elevation: 4,
+            child: Container(
+              height: 80,
+              width: 80,
+              decoration: BoxDecoration(
+                  color: color, borderRadius: BorderRadius.circular(12)),
+            ),
           ),
           Positioned(
             right: -20,
